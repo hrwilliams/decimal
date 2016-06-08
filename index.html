@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Decimal Convertor</h1>
+
+      <form id="Decimal">
+        <div class="form-group">
+          <label for="words">Enter a binary number </label>
+          <input id="words" type="text">
+        </div>
+        <div class="form-group">
+          <label for="hex">Enter a Hexadecimal number </label>
+          <input id="hex" type="text">
+        </div>
+
+        <button type="submit" class="btn">Find out!</button>
+      </form>
+
+      <div id="result">
+        <p>
+          binary number is converted to<span class="bioutput"></span>
+          <br>
+          Hexadecimal number is converted to<span class="hexoutput"></span>
+        </p>
+      </div>
+  </body>
+</html>
